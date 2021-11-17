@@ -19,11 +19,8 @@ import java.util.List;
 public class Order extends AbsEntity {
     @OneToMany
     private List<BasketProduct> basketProducts;
-    private boolean payment;
-    private double total;
-
-
-
+    private boolean payed;
+    private double summa;
     @ManyToOne
     private Client client;
 }
