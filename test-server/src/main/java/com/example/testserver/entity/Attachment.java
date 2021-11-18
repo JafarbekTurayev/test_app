@@ -19,7 +19,7 @@ import javax.persistence.Id;
 public class Attachment extends AbsEntity {
     private Integer id;
     private String originalName;
-    private Integer size;
+    private long size;
     private String contentType;
 
 }

@@ -15,7 +15,7 @@ import javax.persistence.*;
 @Entity
 public class AttachmentContent extends AbsEntity {
 
-    private byte[] mainCode;
+    private byte[] bytes;
     @OneToOne
     private Attachment attachment;
 }
